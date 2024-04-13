@@ -1,7 +1,5 @@
 import React from 'react';
 import icon from '../assets/images/logo.png';
-import './Header.css';
-import MyButton from "../UI/MyButton";
 
 const Header = () => {
     return (
