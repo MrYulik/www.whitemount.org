@@ -1,0 +1,253 @@
+.card_title {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.dws-card {
+    background: url("../assets/images/ecliptor.jpg");
+    background-size: 212px 356px;
+    width: 250px;
+    height: 364px;
+    border-radius: 16px;
+}
+
+.dws-card-1 {
+    background: #424242;
+    width: 250px;
+    height: 364px;
+    border-radius: 16px;
+}
+
+.dws-card-filter {
+    width: 250px;
+    height: 364px;
+    background-color: rgba(255, 255, 255, 0.0);
+    backdrop-filter: blur(0px);
+    border-radius: 16px;
+    transition: 0.2s ease-in-out;
+}
+
+.dws-card-filter:hover {
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+}
+
+.dws-card h4 {
+    color: white;
+    font-size: 16px;
+    font-family: 'Poppins';
+    position: absolute;
+    top: 90%;
+    margin-left: 35%;
+}
+
+.description_class {
+    color: white;
+    font-size: 28px;
+    font-family: 'Poppins';
+    text-align: center;
+}
+
+.card-team {
+    width: 232px;
+    height: 64px;
+    background: #0E0E0E;
+    border-radius: 2px;
+    margin-right: 10px;
+}
+
+.card-icon-0 {
+    background: url("../assets/images/MrYulik.jpg");
+    background-size: 42px 42px;
+    width: 42px;
+    height: 42px;
+    border-radius: 32px;
+    position: absolute;
+    margin-left: 11px;
+    margin-top: 11px;
+}
+
+.card-icon-1 {
+    background: url("../assets/images/Tw9nty.png");
+    background-size: 42px 42px;
+    width: 42px;
+    height: 42px;
+    border-radius: 32px;
+    position: absolute;
+    margin-left: 11px;
+    margin-top: 11px;
+}
+
+.card-icon-2 {
+    background: url("../assets/images/ivban4.jpg");
+    background-size: 42px 42px;
+    width: 42px;
+    height: 42px;
+    border-radius: 32px;
+    position: absolute;
+    margin-left: 11px;
+    margin-top: 11px;
+}
+
+.card-icon-3 {
+    background: url("../assets/images/julek.png");
+    background-size: 42px 42px;
+    width: 42px;
+    height: 42px;
+    border-radius: 32px;
+    position: absolute;
+    margin-left: 11px;
+    margin-top: 11px;
+}
+
+.card-name {
+    padding-top: 11px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    margin-left: 62px;
+}
+
+.card-rang {
+    font-family: 'Poppins';
+    font-weight: 300;
+    color: rgb(192, 192, 192);
+    margin-left: 62px;
+    margin-top: -5px;
+}
+
+/* Footer */
+.footer-dark {
+    padding:50px 0;
+    color:#f0f9ff;
+    background-color:#222222;
+}
+
+.footer-dark h3 {
+    margin-top:0;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size:16px;
+}
+
+.footer-dark ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+}
+
+.footer-dark ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.6;
+}
+
+.footer-dark ul a:hover {
+    opacity:0.8;
+}
+
+@media (max-width:767px) {
+    .footer-dark .item:not(.social) {
+        text-align:center;
+        padding-bottom:20px;
+    }
+}
+
+.footer-dark .item.text {
+    margin-bottom:36px;
+}
+
+@media (max-width:767px) {
+    .footer-dark .item.text {
+        margin-bottom:0;
+    }
+}
+
+.footer-dark .item.text p {
+    opacity:0.6;
+    margin-bottom:0;
+}
+
+.footer-dark .item.social {
+    text-align:center;
+}
+
+@media (max-width:991px) {
+    .footer-dark .item.social {
+        text-align:center;
+        margin-top:20px;
+    }
+}
+
+.footer-dark .item.social > a {
+    font-size:20px;
+    width:36px;
+    height:36px;
+    line-height:36px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+    margin:0 8px;
+    color:#fff;
+    opacity:0.75;
+}
+
+.footer-dark .item.social > a:hover {
+    opacity:0.9;
+}
+
+.footer-dark .copyright {
+    text-align:center;
+    padding-top:24px;
+    opacity:0.3;
+    font-size:13px;
+    margin-bottom:0;
+}
+
+.dwscard {
+    padding-bottom: 50px;
+}
+
+.dwsauthor {
+    font-size: 28px;
+    color: white;
+    font-family: Poppins;
+    font-weight: 500;
+}
+
+.dwstextcard {
+    font-family: Poppins;
+    font-size: 20px;
+    color: #999999;
+    font-weight: 400;
+}
+
+li {
+    list-style: none;
+}
+
+.tags-box {
+    margin-left: 42%;
+    width: 152px;
+    height: 32px;
+    background-color: #0b5bc4;
+    color: white;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.tags-container {
+    display: inline-block;
+}

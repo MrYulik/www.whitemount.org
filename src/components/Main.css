@@ -1,0 +1,18 @@
+.main_title {
+    color: white;
+    font-family: 'Poppins';
+    font-size: 44px;
+    font-weight: 600;
+}
+
+.main_container {
+    margin-top: 200px;
+}
+
+.main_image {
+    margin-top: -150px;
+    margin-left: 150px;
+    position: absolute;
+    width: auto;
+    height: 450px;
+}
